@@ -27,8 +27,6 @@ print("In class tonight we have", name, name_2, name_3)
 # this is how we concatenate strings, use the +
 print("In class tonight we have " + name + " " + name_2 + " and " + name_3)
 
-# do some multiplication
-print(5 * 5)
 
 # common data types
 
@@ -77,4 +75,19 @@ elif age < 34:
 else:
     print("you must be 35 years old")
 
+# python operators arithmetic and comparision
+"""
+arithmetic:  + add, - subtract, * multiplication, / division
 
+comparison:  == equal, != not equal, > greater than, < less than, >= GT or Eq, <= LT or Eq
+"""
+
+print(5 + 5)
+print(10 - 8)
+print(81 / 9)
+
+num_1 = 9
+num_2 = 8 
+total = num_1 + num_2
+
+print("The total of num_1 and num_2 is: " + str(total))
