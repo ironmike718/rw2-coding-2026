@@ -9,5 +9,72 @@ anything inside will not execute
 """
 
 # this will print to the screen
-print("Hello World!")
+# print("Hello Hello Class!")
+
+# variables store information
+
+name = "Gwen"
+name_2 = "Lupe"
+name_3 = "Brea"
+
+print(name)
+print(name_2)
+print(name_3)
+
+# this is how we concatenate strings, use a ,
+print("In class tonight we have", name, name_2, name_3)
+
+# this is how we concatenate strings, use the +
+print("In class tonight we have " + name + " " + name_2 + " and " + name_3)
+
+# do some multiplication
+print(5 * 5)
+
+# common data types
+
+# float
+price = 5.99
+
+# integer
+age = 35
+
+# boolean
+is_here = True
+
+# string
+name = "Mike"
+
+# print all the data types
+
+print(type(price))
+print(type(age))
+print(type(is_here))
+print(type(name))
+
+print("Mike's age is " + str(age))
+
+
+# this is the basic python if statement
+if age > 36:
+    print("you are an unc")
+
+
+# this is a more complex python if statement
+"""
+if age > 36:
+    print("you are an unc")
+else:
+    print("you are not an unc")
+"""
+
+age = 99
+
+# this is an even more complex python if statement
+if age > 36:
+    print("you are an unc")
+elif age < 34:
+    print("you are not an unc")
+else:
+    print("you must be 35 years old")
+
 
