@@ -19,7 +19,22 @@ print(f"Your name is: {user_name} and the total is {total}")
 
 """
 
-x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+# let's create functions and learn about global/local variables
+
+name = "Josh"
+age = 25
+city = "KC"
+
+def my_func_1(city):
+    name = "Brea"
+    age = 21
+    city = "Independence"
+    print(name, age, city)
+
+print(name, age, city)
+
+my_func_1(city)
+
+
+
+
