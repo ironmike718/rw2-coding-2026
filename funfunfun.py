@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import os, subprocess
+
 userInput = input("What is your name? ")
 
 if userInput == "mike":
@@ -29,6 +31,19 @@ for line in myNameFile:
     else:
         print(f"the name is not Brandon, it's {aLine}")
     counter += 1
+
+# how to use imports
+
+# capture the date from linux command line
+
+#os.system("date")
+
+myDate = subprocess.run(["date"])
+
+print(f"today's date from linux is:  {myDate}")
+
+
+
 
 
 
