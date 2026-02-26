@@ -33,10 +33,10 @@ for num in ran_int_list:
     user_guess = int(user_guess)
     #
     if user_guess == port_nums[num]:
-        print(f"correct -- {svc_names[num]} run on port # {port_nums[num]}")
+        print(f"correct -- {svc_names[num]} run on port # {port_nums[num]}\n")
         score =+ 1
     else:
-        print(f"sorry -- {svc_names[num]} run on port # {port_nums[num]}")
+        print(f"sorry -- {svc_names[num]} run on port # {port_nums[num]}\n")
 
 # calculate the score
 
